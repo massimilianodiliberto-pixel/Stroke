@@ -1,0 +1,124 @@
+{
+  "common": {
+    "shopName": "Stroke Shop",
+    "tagline": "Streetwear in Salò, Lake Garda. Since 2002.",
+    "addToCart": "Add to cart",
+    "soldOut": "Sold out",
+    "loading": "Loading…",
+    "backToShop": "Back to shop"
+  },
+  "nav": {
+    "shop": "Shop",
+    "about": "Our story",
+    "contact": "Contact",
+    "cart": "Cart"
+  },
+  "home": {
+    "heroLine1": "STROKE",
+    "heroLine2": "SALÒ",
+    "heroSince": "Streetwear on Lake Garda since 2002",
+    "heroSubtitle": "One piece per size. Few duplicates, lots of choice. What you see online is hanging in the shop, right now.",
+    "ctaShop": "Browse the catalog",
+    "ctaStory": "24 years of history",
+    "featuredTitle": "Featured",
+    "brandsTitle": "Brands we carry",
+    "storyTitle": "SINCE 2002, STILL HERE",
+    "storyText": "Stroke has been Salò's streetwear shop for 24 years. No endless stockrooms: we buy many styles, one piece per size. If you see it, it's probably the only one. If it fits, it's yours.",
+    "storyCta": "Read our story",
+    "reservationNote": "Every online order is a reservation: we confirm availability within 24/48h, and only then is your payment captured."
+  },
+  "shop": {
+    "title": "Catalog",
+    "filterBrand": "Brand",
+    "filterCategory": "Category",
+    "filterSize": "Size",
+    "filterSeason": "Season",
+    "seasonSummer": "Summer",
+    "seasonWinter": "Winter",
+    "all": "All",
+    "search": "Search…",
+    "noResults": "No items found. Try removing some filters.",
+    "results": "{count, plural, =0 {no items} =1 {1 item} other {# items}}",
+    "clearFilters": "Clear filters"
+  },
+  "product": {
+    "selectSize": "Pick your size",
+    "onePerSize": "We stock one piece per size: if it's listed, it's available.",
+    "added": "Added to cart",
+    "vatIncluded": "VAT included",
+    "season": "Season",
+    "reservationInfo": "Ordering reserves the item: we check it's still in the shop and confirm within 24/48h. Payment is only captured on confirmation."
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Your cart is empty.",
+    "remove": "Remove",
+    "total": "Total",
+    "checkout": "Checkout",
+    "continueShopping": "Continue shopping",
+    "size": "Size"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "subtitle": "Fill in your details: your order is a reservation, we confirm availability within 24/48 hours.",
+    "name": "Full name",
+    "email": "Email",
+    "phone": "Phone (optional)",
+    "pickup": "Pickup in store in Salò (free)",
+    "shipping": "Home delivery",
+    "address": "Address",
+    "city": "City",
+    "zip": "ZIP / Postcode",
+    "country": "Country",
+    "note": "Notes (optional)",
+    "submit": "Reserve your order",
+    "submitting": "Sending…",
+    "payNote": "Payment: nothing is charged now. If you chose card payment, it is only authorized; we charge you only after confirmation.",
+    "errorStock": "Oops: one of the items is no longer available. Please refresh your cart.",
+    "errorGeneric": "Something went wrong. Try again or message us on Instagram.",
+    "successTitle": "RESERVATION RECEIVED",
+    "successText": "Thanks! We're checking that your items are still hanging in the shop and will confirm by email within 24/48 hours. Only then is your payment captured.",
+    "successOrder": "Order number",
+    "cancelledTitle": "PAYMENT CANCELLED",
+    "cancelledText": "The payment failed or was cancelled. Your cart is still here if you want to try again."
+  },
+  "about": {
+    "title": "OUR STORY",
+    "p1": "Stroke opened in Salò in 2002, when few people in the Brescia province had even heard of streetwear. Twenty-four years later we're still here, on the shores of Lake Garda, with the same idea as day one: bringing to a lake town the brands you could only find in big cities.",
+    "p2": "Our way of buying has always been against the grain: many styles, one piece per size. No walls of identical hoodies. Whoever walks into Stroke finds pieces they won't see on everyone — and whoever buys online from us is literally buying the piece hanging in the shop.",
+    "p3": "That's why every order on this site is a reservation: before charging you, we check the piece is still here. A bit slower? Maybe. But nobody ever gets a surprise refund for an item sold two hours earlier at the counter.",
+    "visitTitle": "COME SEE US",
+    "visitText": "We're in Salò, on Lake Garda. If you're around for the lake, drop by: the shop itself is the best piece in the collection."
+  },
+  "contact": {
+    "title": "CONTACT",
+    "address": "Address",
+    "hours": "Opening hours",
+    "hoursValue": "Tue–Sun 10:00–12:30 / 15:30–19:30 · Closed Mondays",
+    "social": "Social",
+    "writeUs": "Write to us",
+    "mapNote": "Salò (BS), Lake Garda, Italy"
+  },
+  "legal": {
+    "privacy": "Privacy",
+    "terms": "Terms & conditions",
+    "returns": "Returns & refunds",
+    "placeholder": "Content coming soon. For any question just write to us — we reply the same day."
+  },
+  "footer": {
+    "rights": "© {year} Stroke Shop — Salò (BS), Italy. All rights reserved.",
+    "legal": "Legal",
+    "madeIn": "Handmade on Lake Garda"
+  },
+  "notFound": {
+    "title": "404",
+    "text": "This page doesn't exist. Like duplicates in our stockroom.",
+    "cta": "Back home"
+  },
+  "meta": {
+    "homeTitle": "Stroke Shop — Streetwear in Salò, Lake Garda",
+    "homeDescription": "Streetwear since 2002 in Salò, Lake Garda. Carhartt WIP, Dickies, Obey, HUF and more. One piece per size: every item online is really in the shop. Reserve online, confirmed in 24/48h.",
+    "shopTitle": "Catalog",
+    "shopDescription": "The Stroke Shop catalog: curated streetwear, one piece per size. Filter by brand, category and size."
+  }
+}
