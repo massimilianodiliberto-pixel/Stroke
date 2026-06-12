@@ -46,6 +46,7 @@ next-env.d.ts
 # sqlite database
 prisma/*.db
 prisma/*.db-journal
+!prisma/demo.db
 
 # runtime photo uploads
 /public/uploads/*

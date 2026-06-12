@@ -5,12 +5,17 @@ const boolFromString = z
   .default("false")
   .transform((v) => v === "true");
 
+// I default permettono di avviare il sito senza .env (es. demo su Vercel).
+// In produzione vera vanno SEMPRE impostati SESSION_SECRET e ADMIN_PASSWORD.
 const schema = z
   .object({
-    DATABASE_URL: z.string().min(1),
-    SESSION_SECRET: z.string().min(32, "SESSION_SECRET deve avere almeno 32 caratteri"),
-    ADMIN_USER: z.string().min(1),
-    ADMIN_PASSWORD: z.string().min(1),
+    DATABASE_URL: z.string().min(1).default("file:./dev.db"),
+    SESSION_SECRET: z
+      .string()
+      .min(32, "SESSION_SECRET deve avere almeno 32 caratteri")
+      .default("insecure-dev-secret-please-change-me!!"),
+    ADMIN_USER: z.string().min(1).default("stroke"),
+    ADMIN_PASSWORD: z.string().min(1).default("stroke-demo-2026"),
     NEXT_PUBLIC_SITE_URL: z.string().url().default("http://localhost:3000"),
     STRIPE_ENABLED: boolFromString,
     STRIPE_SECRET_KEY: z.string().optional().default(""),
