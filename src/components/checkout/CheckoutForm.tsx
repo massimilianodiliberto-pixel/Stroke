@@ -83,7 +83,7 @@ export function CheckoutForm() {
             name="delivery"
             checked={!pickup}
             onChange={() => setPickup(false)}
-            className="accent-[#d7ff3f]"
+            className="accent-[#ffd21e]"
           />
           {t("shipping")}
         </label>
@@ -93,7 +93,7 @@ export function CheckoutForm() {
             name="delivery"
             checked={pickup}
             onChange={() => setPickup(true)}
-            className="accent-[#d7ff3f]"
+            className="accent-[#ffd21e]"
           />
           {t("pickup")}
         </label>

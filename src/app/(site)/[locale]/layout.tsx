@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Archivo_Black, Space_Grotesk } from "next/font/google";
+import { Archivo_Black, Baloo_2, Space_Grotesk } from "next/font/google";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -18,6 +18,13 @@ const archivo = Archivo_Black({
 const grotesk = Space_Grotesk({
   subsets: ["latin"],
   variable: "--font-grotesk",
+});
+
+// Font arrotondato per il wordmark "stroke", come il logo storico del negozio
+const baloo = Baloo_2({
+  weight: "800",
+  subsets: ["latin"],
+  variable: "--font-baloo",
 });
 
 export function generateStaticParams() {
@@ -63,7 +70,7 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
 
   return (
-    <html lang={locale} className={`${archivo.variable} ${grotesk.variable}`}>
+    <html lang={locale} className={`${archivo.variable} ${grotesk.variable} ${baloo.variable}`}>
       <body className="min-h-screen flex flex-col">
         <NextIntlClientProvider>
           <CartProvider>

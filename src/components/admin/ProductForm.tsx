@@ -89,7 +89,7 @@ export function ProductForm({
             name="featured"
             value="true"
             defaultChecked={initial?.featured}
-            className="h-4 w-4 accent-[#d7ff3f]"
+            className="h-4 w-4 accent-[#ffd21e]"
           />
           <span>In evidenza in home</span>
         </label>

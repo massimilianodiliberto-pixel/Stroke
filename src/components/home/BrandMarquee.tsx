@@ -11,7 +11,7 @@ export function BrandMarquee({ brands }: { brands: string[] }) {
             className="display text-2xl text-paper/40 transition-colors hover:text-acid sm:text-3xl"
           >
             {brand}
-            <span className="ml-12 text-acid/60">✦</span>
+            <span className="ml-12 text-stroke-orange">✦</span>
           </span>
         ))}
       </div>

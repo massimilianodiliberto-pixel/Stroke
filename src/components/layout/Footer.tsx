@@ -7,9 +7,13 @@ export async function Footer() {
 
   return (
     <footer className="border-t border-paper/10 bg-ink-2">
+      <div className="stroke-stripe" />
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
-        <p className="display text-[18vw] leading-none text-paper/5 select-none md:text-[10rem]">
-          STROKE
+        <p className="wordmark stroke-gradient-text text-[18vw] leading-none opacity-25 select-none md:text-[10rem]">
+          stroke
+        </p>
+        <p className="mt-1 text-[10px] uppercase tracking-[0.4em] text-paper-dim">
+          streetwear &amp; boards shop — since &rsquo;03
         </p>
 
         <div className="mt-8 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">

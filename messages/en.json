@@ -1,7 +1,7 @@
 {
   "common": {
     "shopName": "Stroke Shop",
-    "tagline": "Streetwear in Salò, Lake Garda. Since 2002.",
+    "tagline": "Streetwear & boards shop in Salò, Lake Garda. Since '03.",
     "addToCart": "Add to cart",
     "soldOut": "Sold out",
     "loading": "Loading…",
@@ -14,16 +14,16 @@
     "cart": "Cart"
   },
   "home": {
-    "heroLine1": "STROKE",
+    "heroLine1": "stroke",
     "heroLine2": "SALÒ",
-    "heroSince": "Streetwear on Lake Garda since 2002",
+    "heroSince": "Streetwear & boards shop — Lake Garda, since '03",
     "heroSubtitle": "One piece per size. Few duplicates, lots of choice. What you see online is hanging in the shop, right now.",
     "ctaShop": "Browse the catalog",
-    "ctaStory": "24 years of history",
+    "ctaStory": "20+ years of history",
     "featuredTitle": "Featured",
     "brandsTitle": "Brands we carry",
-    "storyTitle": "SINCE 2002, STILL HERE",
-    "storyText": "Stroke has been Salò's streetwear shop for 24 years. No endless stockrooms: we buy many styles, one piece per size. If you see it, it's probably the only one. If it fits, it's yours.",
+    "storyTitle": "SINCE '03, STILL HERE",
+    "storyText": "Stroke has been Salò's streetwear & board shop for over twenty years. No endless stockrooms: we buy many styles, one piece per size. If you see it, it's probably the only one. If it fits, it's yours.",
     "storyCta": "Read our story",
     "reservationNote": "Every online order is a reservation: we confirm availability within 24/48h, and only then is your payment captured."
   },
@@ -84,7 +84,7 @@
   },
   "about": {
     "title": "OUR STORY",
-    "p1": "Stroke opened in Salò in 2002, when few people in the Brescia province had even heard of streetwear. Twenty-four years later we're still here, on the shores of Lake Garda, with the same idea as day one: bringing to a lake town the brands you could only find in big cities.",
+    "p1": "Stroke opened in Salò in 2003, when few people in the Brescia province had even heard of streetwear and board culture. More than twenty years later we're still here, on the shores of Lake Garda, with the same idea as day one: bringing to a lake town the brands you could only find in big cities.",
     "p2": "Our way of buying has always been against the grain: many styles, one piece per size. No walls of identical hoodies. Whoever walks into Stroke finds pieces they won't see on everyone — and whoever buys online from us is literally buying the piece hanging in the shop.",
     "p3": "That's why every order on this site is a reservation: before charging you, we check the piece is still here. A bit slower? Maybe. But nobody ever gets a surprise refund for an item sold two hours earlier at the counter.",
     "visitTitle": "COME SEE US",
@@ -117,7 +117,7 @@
   },
   "meta": {
     "homeTitle": "Stroke Shop — Streetwear in Salò, Lake Garda",
-    "homeDescription": "Streetwear since 2002 in Salò, Lake Garda. Carhartt WIP, Dickies, Obey, HUF and more. One piece per size: every item online is really in the shop. Reserve online, confirmed in 24/48h.",
+    "homeDescription": "Streetwear & board shop since 2003 in Salò, Lake Garda. Carhartt WIP, Dickies, Obey, HUF and more. One piece per size: every item online is really in the shop. Reserve online, confirmed in 24/48h.",
     "shopTitle": "Catalog",
     "shopDescription": "The Stroke Shop catalog: curated streetwear, one piece per size. Filter by brand, category and size."
   }

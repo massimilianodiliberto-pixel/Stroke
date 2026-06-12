@@ -102,7 +102,7 @@ export function ImportPreview({
                     type="checkbox"
                     checked={selected.has(key)}
                     onChange={() => toggle(selected, setSelected, key)}
-                    className="h-4 w-4 accent-[#d7ff3f]"
+                    className="h-4 w-4 accent-[#ffd21e]"
                   />
                   <span className="flex-1">
                     <span className="text-acid">{e.row.brand}</span> {e.row.name}
@@ -132,7 +132,7 @@ export function ImportPreview({
                     type="checkbox"
                     checked={selected.has(key)}
                     onChange={() => toggle(selected, setSelected, key)}
-                    className="mt-0.5 h-4 w-4 accent-[#d7ff3f]"
+                    className="mt-0.5 h-4 w-4 accent-[#ffd21e]"
                   />
                   <div className="flex-1">
                     <p>{e.productName}</p>

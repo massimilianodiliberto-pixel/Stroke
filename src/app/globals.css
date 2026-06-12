@@ -6,11 +6,16 @@
   --color-ink-3: #1a1a1e;
   --color-paper: #f2f0ea;
   --color-paper-dim: #b9b6ac;
-  --color-acid: #d7ff3f;
-  --color-danger: #ff4d4d;
+  /* Palette Stroke: i blocchi del logo (rosso, arancio, giallo, bianco) */
+  --color-stroke-red: #e8432d;
+  --color-stroke-orange: #f58220;
+  --color-stroke-yellow: #ffd21e;
+  --color-acid: #ffd21e; /* accento principale = giallo Stroke */
+  --color-danger: #e8432d;
 
   --font-display: var(--font-archivo), "Arial Black", sans-serif;
   --font-body: var(--font-grotesk), system-ui, sans-serif;
+  --font-logo: var(--font-baloo), "Arial Rounded MT Bold", "Arial Black", sans-serif;
 }
 
 html {
@@ -25,7 +30,7 @@ body {
 }
 
 ::selection {
-  background: var(--color-acid);
+  background: var(--color-stroke-yellow);
   color: var(--color-ink);
 }
 
@@ -35,6 +40,52 @@ body {
   text-transform: uppercase;
   letter-spacing: -0.02em;
   line-height: 0.9;
+}
+
+/* Wordmark "stroke": minuscolo, font arrotondato come il logo storico */
+.wordmark {
+  font-family: var(--font-logo);
+  font-weight: 800;
+  text-transform: lowercase;
+  letter-spacing: -0.04em;
+  line-height: 0.9;
+}
+
+/* I 4 blocchi del logo, in orizzontale (come l'etichetta cucita) */
+.stroke-blocks {
+  background: linear-gradient(
+    90deg,
+    var(--color-stroke-red) 0% 25%,
+    var(--color-stroke-orange) 25% 50%,
+    var(--color-stroke-yellow) 50% 75%,
+    var(--color-paper) 75% 100%
+  );
+}
+
+/* Testo riempito con i 4 blocchi */
+.stroke-gradient-text {
+  background: linear-gradient(
+    90deg,
+    var(--color-stroke-red) 0% 28%,
+    var(--color-stroke-orange) 28% 52%,
+    var(--color-stroke-yellow) 52% 76%,
+    var(--color-paper) 76% 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Striscia quadricolore sottile, usata come divisore di sezione */
+.stroke-stripe {
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    var(--color-stroke-red) 0% 25%,
+    var(--color-stroke-orange) 25% 50%,
+    var(--color-stroke-yellow) 50% 75%,
+    var(--color-paper) 75% 100%
+  );
 }
 
 /* Testo con contorno (hero) */

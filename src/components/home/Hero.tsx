@@ -13,7 +13,7 @@ export function Hero() {
         className="pointer-events-none absolute inset-0 opacity-50"
         style={{
           background:
-            "radial-gradient(ellipse 80% 60% at 70% 20%, rgba(215,255,63,0.08), transparent), radial-gradient(ellipse 60% 50% at 20% 80%, rgba(63,140,255,0.06), transparent)",
+            "radial-gradient(ellipse 80% 60% at 70% 20%, rgba(245,130,32,0.10), transparent), radial-gradient(ellipse 60% 50% at 20% 80%, rgba(232,67,45,0.07), transparent)",
         }}
       />
 
@@ -27,12 +27,12 @@ export function Hero() {
           {t("heroSince")}
         </motion.p>
 
-        <h1 className="display select-none">
+        <h1 className="select-none">
           <motion.span
             initial={{ y: "100%", opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            className="block text-[20vw] leading-[0.85] md:text-[12rem]"
+            className="wordmark stroke-gradient-text block text-[22vw] leading-[0.85] md:text-[13rem]"
           >
             {t("heroLine1")}
           </motion.span>
@@ -40,7 +40,7 @@ export function Hero() {
             initial={{ y: "100%", opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.7, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
-            className="outline-text block text-[20vw] leading-[0.85] md:text-[12rem]"
+            className="display outline-text block text-[20vw] leading-[0.85] md:text-[12rem]"
           >
             {t("heroLine2")}
           </motion.span>

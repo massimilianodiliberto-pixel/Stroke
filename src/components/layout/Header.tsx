@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { useCart } from "@/components/cart/CartProvider";
+import { StrokeLogo } from "@/components/layout/StrokeLogo";
 
 export function Header() {
   const t = useTranslations("nav");
@@ -21,8 +22,8 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-paper/10 bg-ink/85 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6">
-        <Link href="/" className="display text-2xl tracking-tight hover:text-acid transition-colors">
-          STROKE<span className="text-acid">.</span>
+        <Link href="/" className="transition-opacity hover:opacity-80">
+          <StrokeLogo size="sm" tagline />
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
@@ -76,6 +77,8 @@ export function Header() {
           </button>
         </div>
       </div>
+
+      <div className="stroke-stripe" />
 
       {open && (
         <nav className="border-t border-paper/10 bg-ink px-4 py-4 md:hidden">
